@@ -8,7 +8,7 @@ int main()
     setlocale(LC_ALL, "Russian");
     int i = 1, n;
     float sum = 0;
-    cout << "Ââåäèòå n: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ n: ";
     cin >> n;
     for (i; i <= n; i++) {
         sum += i / pow(2 * i, 2);
